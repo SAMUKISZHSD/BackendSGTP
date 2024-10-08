@@ -3,6 +3,7 @@ package br.com.sgtp.todolist.task;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+import org.hibernate.annotations.CreationTimestamp;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -28,12 +29,14 @@ public class TaskModel {
  private UUID id;
  private String description;
 
- @Column(length = 100)
+ //quantidade de caracteres, "length = 50"
+ @Column(length = 50)
  private String title;
  private LocalDateTime startAT;
  private LocalDateTime endAT;
  private String priority;
 
+ @CreationTimestamp
  private LocalDateTime createdAT;
 
  private UUID idUser;
