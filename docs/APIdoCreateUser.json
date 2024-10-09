@@ -1,8 +1,8 @@
 curl --location 'http://localhost:8081/users/' \
 --header 'Content-Type: application/json' \
 --data '{
-    "name": "Samuel",
-    "username": "Samuel Allan Nunes da Cunha", 
-    "password": "testesenha034"
+    "name": "TesteNAME",
+    "username": "TesteTASK", 
+    "password": "123"
 
 }'

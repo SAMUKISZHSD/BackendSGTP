@@ -1,10 +1,11 @@
 curl --location 'http://localhost:8081/tasks/' \
 --header 'Content-Type: application/json' \
+--header 'Authorization: Basic VGVzdGVUQVNLOjEyMw==' \
 --data '{
     "description": "Teste description tarefa 2 ",
     "title": "Gravação de aula",
     "priority": "ALTA",
-    "startAT": "2024-10-08T17:30:00", 
+    "startAT": "2024-10-09T17:30:00", 
     "endAT": "2024-10-10T12:30:00",
-    "idUser": "b001ab95-2eb0-469e-9a35-30fc6b42f0c7"
+    "idUser": "645c19d6-e1da-4afd-9414-2796ceb6edcb"
 }'
