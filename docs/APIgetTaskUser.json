@@ -1,0 +1,2 @@
+curl --location 'http://localhost:8081/tasks/' \
+--header 'Authorization: Basic U2FtdWVsIEFsbGFuIE51bmVzIGRhIEN1bmhhOjEyMzQ1'

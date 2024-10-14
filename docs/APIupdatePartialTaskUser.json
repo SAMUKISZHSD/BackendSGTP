@@ -1,0 +1,7 @@
+curl --location --request PUT 'http://localhost:8081/tasks/efcf44a7-56f4-4ec1-a5d4-539e730257ec' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Basic U2FtdWVsIEFsbGFuIE51bmVzIGRhIEN1bmhhOjEyMzQ1' \
+--data '    {
+        "description": "Teste description tarefa partial"
+
+    }'

@@ -1,0 +1,11 @@
+curl --location --request PUT 'http://localhost:8081/tasks/419c7ca7-4437-493a-a353-27e7b6b7bc15' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Basic U2FtdWVsIEFsbGFuIE51bmVzIGRhIEN1bmhhOjEyMzQ1' \
+--data '    {
+        "description": "Teste description tarefa 2 ",
+        "title": "Jean nego loko", 
+        "startAT": "2024-10-10T22:30:00",
+        "endAT": "2024-10-11T12:30:00",
+        "priority": "ALTA",
+        "createdAT": "2024-10-10T21:05:13.910253" 
+    }'
