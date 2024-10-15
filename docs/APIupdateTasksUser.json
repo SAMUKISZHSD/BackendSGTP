@@ -9,3 +9,6 @@ curl --location --request PUT 'http://localhost:8081/tasks/419c7ca7-4437-493a-a3
         "priority": "ALTA",
         "createdAT": "2024-10-10T21:05:13.910253" 
     }'
+
+
+    //TESTAR SE É POSSIVEL ATUALIZAR UMA TAREFA QUE NÃO EXISTE E COM USER DIFERENTE - CASE NEGATIVE TEST
