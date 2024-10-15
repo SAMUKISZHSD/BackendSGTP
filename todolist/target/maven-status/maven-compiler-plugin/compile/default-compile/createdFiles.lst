@@ -1,0 +1,11 @@
+br\com\sgtp\todolist\utils\Utils.class
+br\com\sgtp\todolist\user\UserController.class
+br\com\sgtp\todolist\TodolistApplication.class
+br\com\sgtp\todolist\errors\ExceptionHandlerController.class
+br\com\sgtp\todolist\task\TaskController.class
+br\com\sgtp\todolist\user\IUserRepository.class
+br\com\sgtp\todolist\filter\FilterTaskAuth.class
+br\com\sgtp\todolist\task\ITaskRepository.class
+br\com\sgtp\todolist\task\TaskModel.class
+br\com\sgtp\todolist\user\BCrypt.class
+br\com\sgtp\todolist\user\UserModel.class
